@@ -1,0 +1,179 @@
+.body {
+    font-family: 'Bebas Neue';
+    color: black;
+    font-size: 1.2rem;
+    margin: 0;
+    background-color: rgb(46, 46, 46);
+
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+
+}
+
+.main{
+    
+    padding-top: 5rem;
+    padding-bottom: 5REM;
+}
+
+
+
+
+//formulario de contacto
+.form-page {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 4rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+//termina formulario
+
+//foto de inicio
+.inicio {
+width: 100%;
+background: rgb(46,46,46);
+background: linear-gradient(360deg, rgb(46, 46, 46) 20%, rgba(255,255,255,0) 100%);
+padding-bottom: 48rem;
+position: absolute;
+z-index: 1;
+
+}
+
+.inicio_img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    margin-top: -14rem;
+    
+
+}
+
+.inicio_titulo {
+    position: absolute;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 8em;
+    margin-top: 12rem;
+    margin-left: 5rem;
+}
+
+.inicio_texto {
+    position: absolute;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin-top: 20rem;
+    margin-left: 5rem;
+}
+
+.inicio_buttom {
+    position: absolute;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    margin-top: 25rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius : 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 0, 0);
+}
+
+.inicio_buttom:hover {
+    background-color: white;
+    text-decoration: none;
+    color: red;
+}
+
+//datos de Sobre Nosotros
+.contacto_inf {
+    max-width: 1600px;
+    width: 90%;
+    margin: 100px auto;
+    border-top: 50px;
+    margin-top: 2rem;
+}
+
+.inf {
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px; 
+}
+
+.inf__vid {
+    width: 300px;
+    height: 180px;
+    margin-right: 30px;
+}
+
+.inf__titulo {
+    font-size:1.5rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.inf__parrafo {
+    line-height: 28px;
+    font-size:1rem;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:100rem) {
+    .inicio_img {
+        
+        width: 1500px;
+        margin-top: 0;
+        
+    
+    }
+
+}
+
+
+@media (max-width:70rem) {
+    .inicio_titulo{
+        font-size: 3em;
+    }
+
+    .inicio_texto {
+        font-size: 1em;
+        margin-top: 15rem;
+    }
+
+    .inicio_buttom {
+        font-size: .8em;
+        margin-top: 18rem;
+        margin-left: 5rem;
+        padding: .6rem;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
+        
+        
+    }
+
+    
+
+}
+

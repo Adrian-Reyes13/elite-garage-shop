@@ -1,0 +1,134 @@
+.card-container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : center ;
+    margin: auto;
+    margin-top: 48rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+
+.card {
+    width: 330px;
+    height: 430px;
+    border-radius : 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 28px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+.card:hover {
+    
+        transform: translateY( -15px) ;
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;
+}    
+
+.card_img {
+        width: 330px;
+        height: 220px
+
+}
+.card_titles {
+    font-weight: 600;
+    margin-top: 5PX;
+
+}
+.card_p {
+        padding : 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+        
+}
+
+.card_buttom {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: .2rem;
+    
+    background-color: red;
+}
+
+.card_buttom:hover {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: .2rem;
+    
+    background-color: red;
+}
+
+
+
+//grids tienda
+
+.divtienda {
+    align-items: center;
+}
+
+.tituloTienda {
+    margin-top: 2rem;
+    
+    color: white;
+    text-align: center;
+    
+}
+
+
+.productosgrid {
+
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 200px 400px ;
+    grid-template-rows: 200px 200px 200px 200px;
+    row-gap: 40px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 1rem;
+    
+        div {
+            align-content: center;
+            background-color: black;
+            
+        }
+        
+        img {
+            padding: 25px;
+            align-items: center;
+            width: 200px;
+            height: 200px
+        }
+
+}
+
+.grid__titulosGrid {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+@media (max-width:70rem) {
+    .card-container {
+        margin-bottom: 30rem;
+    }
+
+
+}
+
+@media (max-width:50rem) {
+    .card-container {
+        margin-bottom: 60rem;
+    }
+
+
+}
